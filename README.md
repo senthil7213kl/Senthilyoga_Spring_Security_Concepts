@@ -4,7 +4,11 @@ A simple Spring Boot project demonstrating the fundamentals of **Spring Security
 
 ## 🛠️ Technologies
 
+<<<<<<< HEAD
 * Java 25
+=======
+* Java 21
+>>>>>>> 954804f470f65d7acac69bac0c5680651c958184
 * Spring Boot
 * Spring Security
 * Spring Web
