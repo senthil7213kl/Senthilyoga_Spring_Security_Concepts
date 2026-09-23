@@ -41,11 +41,18 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+        <!-- 2. SPECIFIC WEB TEST SLICE STARTER (For @WebMvcTest / MockMvc) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <!-- 1. CORE TEST STARTER (Missing Baseline for @SpringBootTest) -->
+
+       <!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>-->
 	</dependencies>
 
 	<build>
