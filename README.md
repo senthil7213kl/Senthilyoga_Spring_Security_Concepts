@@ -4,7 +4,7 @@ A simple Spring Boot project demonstrating the fundamentals of **Spring Security
 
 ## 🛠️ Technologies
 
-* Java 17+
+* Java 21
 * Spring Boot
 * Spring Security
 * Spring Web
