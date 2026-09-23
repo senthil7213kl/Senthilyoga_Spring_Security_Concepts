@@ -523,3 +523,6 @@ For a banking/payment microservices application:
 ```
 
 This pattern is particularly useful when securing **Spring Boot microservices, payment APIs, and enterprise REST services**.
+
+
+Debug Mode  Spring app: mvn spring-boot:run  "-Dspring-boot.run.arguments=--debug"

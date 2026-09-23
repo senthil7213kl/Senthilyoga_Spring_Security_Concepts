@@ -48,12 +48,11 @@
 			<scope>test</scope>
 		</dependency>
         <!-- 1. CORE TEST STARTER (Missing Baseline for @SpringBootTest) -->
-
-       <!-- <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>-->
-	</dependencies>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>

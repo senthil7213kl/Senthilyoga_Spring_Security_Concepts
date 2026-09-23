@@ -18,6 +18,6 @@ class WelcomeControllerTest {
     public void TestSayWelcome() throws Exception {
         mockMvc.perform(get("/welcome")).
                 andExpect(status().isOk()).
-                andExpect(content().string("Welcome to Spring application with out Security"));
+                andExpect(content().string("Welcome to Spring application with Security"));
     }
 }
