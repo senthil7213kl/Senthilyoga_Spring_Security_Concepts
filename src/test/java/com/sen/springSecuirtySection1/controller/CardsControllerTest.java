@@ -9,15 +9,14 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@WebMvcTest(WelcomeController.class)
-class WelcomeControllerTest {
+@WebMvcTest(CardsController.class)
+class CardsControllerTest {
     @Autowired
     MockMvc mockMvc;
 
     @Test
-    public void TestSayWelcome() throws Exception {
-        mockMvc.perform(get("/welcome")).
-                andExpect(status().isOk()).
-                andExpect(content().string("Welcome to Spring application with Security"));
+    void getCardsDetails() throws Exception {
+        mockMvc.perform(get("/cards")).andExpect(status().isOk())
+                .andExpect(content().string("card Details"));
     }
 }
