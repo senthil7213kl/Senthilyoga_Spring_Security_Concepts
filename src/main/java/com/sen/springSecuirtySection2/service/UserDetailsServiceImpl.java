@@ -1,7 +1,7 @@
-package com.sen.springSecuirtySection1.service;
+package com.sen.springSecuirtySection2.service;
 
-import com.sen.springSecuirtySection1.model.Customer;
-import com.sen.springSecuirtySection1.respository.CustomerRepo;
+import com.sen.springSecuirtySection2.model.Customer;
+import com.sen.springSecuirtySection2.respository.CustomerRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

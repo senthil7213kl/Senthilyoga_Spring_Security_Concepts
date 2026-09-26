@@ -1,4 +1,4 @@
-package com.sen.springSecuirtySection1.config;
+package com.sen.springSecuirtySection2.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

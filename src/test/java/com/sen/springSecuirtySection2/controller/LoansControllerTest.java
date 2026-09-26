@@ -1,4 +1,4 @@
-package com.sen.springSecuirtySection1.controller;
+package com.sen.springSecuirtySection2.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,14 +9,14 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@WebMvcTest(NoticesController.class)
-class NoticesControllerTest {
+@WebMvcTest(LoansController.class)
+class LoansControllerTest {
     @Autowired
     MockMvc mockMvc;
 
     @Test
-    void getNotification() throws Exception {
-        mockMvc.perform(get("/notices")).andExpect(status().isOk())
-                .andExpect(content().string("notification details"));
+    void getLoanDetails() throws Exception {
+        mockMvc.perform(get("/loans")).andExpect(status().isOk())
+                .andExpect(content().string("Loan details"));
     }
 }

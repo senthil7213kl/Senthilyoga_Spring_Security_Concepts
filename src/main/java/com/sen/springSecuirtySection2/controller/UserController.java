@@ -1,7 +1,7 @@
-package com.sen.springSecuirtySection1.controller;
+package com.sen.springSecuirtySection2.controller;
 
-import com.sen.springSecuirtySection1.model.Customer;
-import com.sen.springSecuirtySection1.respository.CustomerRepo;
+import com.sen.springSecuirtySection2.model.Customer;
+import com.sen.springSecuirtySection2.respository.CustomerRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;

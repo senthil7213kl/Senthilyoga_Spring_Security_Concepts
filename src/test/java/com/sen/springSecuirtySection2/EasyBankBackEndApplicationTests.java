@@ -1,4 +1,4 @@
-package com.sen.springSecuirtySection1;
+package com.sen.springSecuirtySection2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
