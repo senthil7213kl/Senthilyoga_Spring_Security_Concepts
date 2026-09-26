@@ -47,7 +47,7 @@ public class UserController {
                         " with id: " + customer.getId());
             }
         } catch (Exception e) {
-            return ResponseEntity.status(500).body("exception occurred during registration failed with id: " + customer.getId() + ": " + e.getMessage());
+            return ResponseEntity.status(500).body("exception occurred during registration failed with id: "+ e.getMessage());
         }
     }
 }
