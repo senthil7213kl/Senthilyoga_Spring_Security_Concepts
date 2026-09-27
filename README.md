@@ -530,3 +530,12 @@ This pattern is particularly useful when securing **Spring Boot microservices, p
 
 
 Debug Mode  Spring app: mvn spring-boot:run  "-Dspring-boot.run.arguments=--debug"
+
+
+
+mermaid
+graph LR
+    Gateway[API Gateway] --> Auth[Auth Service]
+    Gateway --> Kafka{Apache Kafka}
+    Kafka --> Order[Order Service]
+    Kafka --> Inventory[Inventory Service]
